@@ -11,7 +11,7 @@ require("lazy").setup({
       update_notifications = true, -- Enable/disable notification about running `:Lazy update` twice to update pinned plugins
     },
   },
-  --{ 'SirVer/ultisnips' },
+  { 'SirVer/ultisnips' },
   { import = "community" },
   { import = "plugins" },
 } --[[@as LazySpec]], {
